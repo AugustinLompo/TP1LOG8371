@@ -27,8 +27,12 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -B clean install --settings maven-settings.xml --file moa/pom.xml
+    - name: clean with Maven
+      run: mvn clean  --settings maven-settings.xml --file moa/pom.xml
+    - name: compile with Maven
+      run: mvn compile  --settings maven-settings.xml --file moa/pom.xml
+    - name: test with Maven
+      run: mvn test  --settings maven-settings.xml --file moa/pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
