@@ -48,11 +48,12 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: maven
+  
     - name: Set up Maven
-      uses: aahmed-se/setup-maven@v3
+      uses: stCarolas/setup-maven@v4
       with:
-        maven-version: 3.6.1
+        maven-version: 3.6.3
+
 
     - name: test with Maven
       run: mvn test --settings maven-settings.xml --file moa/pom.xml
