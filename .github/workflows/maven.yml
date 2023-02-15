@@ -51,6 +51,6 @@ jobs:
         cache: maven
 
     - name: test with Maven
-      run: mvn test -- settings settings.xml --file moa/pom.xml
+      run: mvn test --settings maven-settings.xml --file moa/pom.xml
 
 
