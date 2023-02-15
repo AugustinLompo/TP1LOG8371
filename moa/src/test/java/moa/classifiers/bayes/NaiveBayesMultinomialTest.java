@@ -21,7 +21,6 @@ package moa.classifiers.bayes;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
-
 import moa.classifiers.AbstractMultipleClassifierTestCase;
 import moa.classifiers.Classifier;
 

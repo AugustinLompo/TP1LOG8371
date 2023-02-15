@@ -22,6 +22,7 @@ package com.github.javacliparser.gui;
 import com.github.javacliparser.FileOption;
 import com.github.javacliparser.Option;
 import moa.gui.FileExtensionFilter;
+import nz.ac.waikato.cms.gui.core.BaseFileChooser;
 
 import javax.swing.JButton;
 import javax.swing.JPanel;
