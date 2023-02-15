@@ -28,11 +28,11 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: clean with Maven
-      run: mvn clean  --settings maven-settings.xml --file moa/pom.xml
+      run: mvn clean  
     - name: compile with Maven
-      run: mvn compile  --settings maven-settings.xml --file moa/pom.xml
+      run: mvn compile  
     - name: test with Maven
-      run: mvn test  --settings maven-settings.xml --file moa/pom.xml
+      run: mvn test  
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
@@ -51,6 +51,6 @@ jobs:
         cache: maven
 
     - name: test with Maven
-      run: mvn test  --settings maven-settings.xml --file pom.xml
+      run: mvn test  
 
 
