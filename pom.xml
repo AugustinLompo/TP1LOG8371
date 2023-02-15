@@ -7,7 +7,7 @@
     <version>2021.07.1-SNAPSHOT</version>  
   </parent>  
 
-  <artifactId>moa</artifactId>
+  <artifactId>moa</artifactId>   
   <packaging>jar</packaging>
 
   <name>MOA: Massive Online Analysis</name>
