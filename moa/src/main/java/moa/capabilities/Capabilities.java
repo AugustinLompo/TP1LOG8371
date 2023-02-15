@@ -16,7 +16,7 @@
 /*
  * Capabilities.java
  * Copyright (C) 2019 University of Waikato, Hamilton, NZ
- */  
+ */
 
 package moa.capabilities;
 
