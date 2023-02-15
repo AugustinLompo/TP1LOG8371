@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/moa-master/moa/src/examples/examples.iml" filepath="$PROJECT_DIR$/moa-master/moa/src/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moa-master/moa/src/main/main.iml" filepath="$PROJECT_DIR$/moa-master/moa/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moa-master/moa-kafka/moa-kafka.iml" filepath="$PROJECT_DIR$/moa-master/moa-kafka/moa-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/moa-master.iml" filepath="$PROJECT_DIR$/.idea/moa-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moa-master/moa/src/test/test.iml" filepath="$PROJECT_DIR$/moa-master/moa/src/test/test.iml" />
+    </modules>
+  </component>
+</project>
