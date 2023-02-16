@@ -1,10 +1,10 @@
-package moa.classifiers.newalgo;
+// package moa.classifiers.newalgo;
 
 
-public class newAlgo 
-{
-    public String returnName()
-    {
-        return "newAlgo";
-    }
-}
+// public class newAlgo 
+// {
+//     public String returnName()
+//     {
+//         return "newAlgo";
+//     }
+// }
