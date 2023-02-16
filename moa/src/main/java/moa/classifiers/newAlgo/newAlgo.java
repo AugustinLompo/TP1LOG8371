@@ -1,7 +1,7 @@
 package moa.classifiers.newalgo;
 
 
-public class NewAlgo 
+public class newAlgo 
 {
     public String returnName()
     {
